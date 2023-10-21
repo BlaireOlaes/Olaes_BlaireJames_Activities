@@ -1,0 +1,472 @@
+
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: #FAFCF9;
+}
+img{
+	position: absolute;
+	top: 16.9%;
+	left: 50%;
+	max-width: 80%;
+	transform: translate(-50%,-50%);
+}
+
+
+/* Heading */
+.login-box h1{
+	color: black;
+	float: left;
+	font-family: fantasy;
+	font-size: 40px;
+	margin-bottom: 50px;
+	padding: 13px 0;
+	text-shadow: 2px 2px white;
+	margin-left: 135px;
+	opacity: 80%;
+}
+.heading{
+	text-align: center;
+	font-family: fantasy;
+	font-size: 4rem;
+	opacity: 80%;
+}
+
+/* MINI MESSAGE  */ 
+#mini{
+	font-weight: 200;
+	position: absolute;
+	font-size: 20px;
+	margin-left: 85px;
+	margin-top: 100px;
+	color: salmon;
+	text-shadow: 1px 1px purple;
+	font-family: fantasy;
+	opacity: 50%;
+}
+
+
+/* LOGIN DIV */
+.login-box{
+	width: 340px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white
+}
+
+/*TEXT FIELDS AND INPUTS*/
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid gray;
+}
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: gray;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
+
+/*LOGIN BUTTON*/
+.btn{
+	font-weight: 900;
+    width: 100%;
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 50px;
+    color: black;
+    padding: 5px;
+    font-size: 18;
+	cursor:pointer;
+	margin: 12px 0;
+	transition: .5s;
+}
+.btn:hover
+{
+	transform: scale(1.1);	
+	background-image: linear-gradient(to right top,gray,dimgray,black,black,black,dimgray,gray);
+    border: solid black 2px;
+    color: whitesmoke;
+}
+
+h4{
+	color: black;
+}
+a{
+	color: green;
+	text-decoration: none;
+}
+.bt-msg{
+	font-size: 14px;
+}
+.nameForm{
+	width: 49%;
+	overflow: hidden;
+	font-size: 20px;
+	padding-top: 0;
+	margin-top: 0;
+	border: none;
+	outline: none;
+	background: none;
+	color: gray;
+	border-bottom: 1px solid white;" 
+}
+
+@media (max-width: 938px){
+	html,body{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: #FAFCF9;
+}
+img{
+	position: absolute;
+	top: 16.9%;
+	left: 50%;
+	max-width: 80%;
+	transform: translate(-50%,-50%);
+}
+
+
+/* Heading */
+.login-box h1{
+	display: none;
+}
+
+/* MINI MESSAGE  */ 
+#mini{
+	display: none;
+}
+
+
+/* LOGIN DIV */
+.login-box{
+	width: 340px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white
+}
+
+/*TEXT FIELDS AND INPUTS*/
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid gray;
+}
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: gray;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
+
+/*LOGIN BUTTON*/
+.btn{
+	font-weight: 900;
+    width: 100%;
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 50px;
+    color: black;
+    padding: 5px;
+    font-size: 18;
+	cursor:pointer;
+	margin: 12px 0;
+	transition: .5s;
+}
+.btn:hover
+{
+	transform: scale(1.1);	
+	background-image: linear-gradient(to right top,gray,dimgray,black,black,black,dimgray,gray);
+    border: solid black 2px;
+    color: whitesmoke;
+}
+
+h4{
+	color: black;
+}
+a{
+	color: green;
+	text-decoration: none;
+}
+.bt-msg{
+	font-size: 14px;
+}
+}
+
+
+
+
+@media (max-height: 350px){
+	html,body{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: #FAFCF9;
+}
+img{
+		display: none;
+}
+
+
+/* Heading */
+.login-box h1{
+	color: black;
+	float: left;
+	font-family: fantasy;
+	font-size: 40px;
+	margin-bottom: 50px;
+	padding: 13px 0;
+	text-shadow: 2px 2px white;
+	margin-left: 135px;
+	opacity: 80%;
+}
+
+/* MINI MESSAGE  */ 
+#mini{
+	font-weight: 200;
+	position: absolute;
+	font-size: 20px;
+	margin-left: 85px;
+	margin-top: 100px;
+	color: salmon;
+	text-shadow: 1px 1px purple;
+	font-family: fantasy;
+	opacity: 50%;
+}
+
+/* LOGIN DIV */
+.login-box{
+	width: 340px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white
+}
+
+/*TEXT FIELDS AND INPUTS*/
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid gray;
+}
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: gray;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
+
+/*LOGIN BUTTON*/
+.btn{
+	font-weight: 900;
+    width: 100%;
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 50px;
+    color: black;
+    padding: 5px;
+    font-size: 18;
+	cursor:pointer;
+	margin: 12px 0;
+	transition: .5s;
+}
+.btn:hover
+{
+	transform: scale(1.1);	
+	background-image: linear-gradient(to right top,gray,dimgray,black,black,black,dimgray,gray);
+    border: solid black 2px;
+    color: whitesmoke;
+}
+
+h4{
+	color: black;
+}
+a{
+	color: green;
+	text-decoration: none;
+}
+.bt-msg{
+	font-size: 14px;
+}
+}
+@media (max-height: 700px){
+	html,body{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: #FAFCF9;
+}
+img{
+	position: absolute;
+	top: 16.9%;
+	left: 50%;
+	max-width: 10%;
+	transform: translate(-50%,-50%);
+}
+
+
+/* Heading */
+.login-box h1{
+	color: black;
+	float: left;
+	font-family: fantasy;
+	font-size: 40px;
+	margin-bottom: 50px;
+	padding: 13px 0;
+	text-shadow: 2px 2px white;
+	margin-left: 135px;
+	opacity: 80%;
+}
+
+/* MINI MESSAGE  */ 
+#mini{
+	font-weight: 200;
+	position: absolute;
+	font-size: 20px;
+	margin-left: 85px;
+	margin-top: 100px;
+	color: salmon;
+	text-shadow: 1px 1px purple;
+	font-family: fantasy;
+	opacity: 50%;
+}
+
+
+/* LOGIN DIV */
+.login-box{
+	width: 340px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white
+}
+
+/*TEXT FIELDS AND INPUTS*/
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid gray;
+}
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: gray;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
+
+/*LOGIN BUTTON*/
+.btn{
+	font-weight: 900;
+    width: 100%;
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 50px;
+    color: black;
+    padding: 5px;
+    font-size: 18;
+	cursor:pointer;
+	margin: 12px 0;
+	transition: .5s;
+}
+.btn:hover
+{
+	transform: scale(1.1);	
+	background-image: linear-gradient(to right top,gray,dimgray,black,black,black,dimgray,gray);
+    border: solid black 2px;
+    color: whitesmoke;
+}
+
+h4{
+	color: black;
+}
+a{
+	color: green;
+	text-decoration: none;
+}
+.bt-msg{
+	font-size: 14px;
+}
